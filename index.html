@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Accessible and SEO Friendly Web Page</title>
+  <meta name="description" content="A basic web page using HTML5 semantic tags with accessibility best practices and beginner-friendly SEO principles." />
+</head>
+<body>
+  <header role="banner">
+    <h1>Harrison Mwai Gitonga</h1>
+  </header>
+
+  <nav role="navigation" aria-label="Primary navigation">
+    <ul>
+      <li><a href="#introduction" accesskey="i">Introduction</a></li>
+      <li><a href="#scholarship" accesskey="s">Scholarship</a></li>
+      <li><a href="#project" accesskey="p">Project</a></li>
+      <li><a href="#contact" accesskey="c">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main role="main">
+    <section id="introduction" aria-labelledby="introduction-heading">
+      <h2 id="introduction-heading">Introduction</h2>
+      <p>My name is Harrison Mwai Gitonga. I am a student currently under scholarship at PLP Africa.</p>
+    </section>
+
+    <section id="scholarship" aria-labelledby="scholarship-heading">
+      <h2 id="scholarship-heading">Scholarship</h2>
+      <p>I am honored to be a recipient of the PLP Africa scholarship, which supports my educational journey and personal growth.</p>
+    </section>
+
+    <section id="project" aria-labelledby="project-heading">
+      <h2 id="project-heading">My First Webpage Project</h2>
+      <p>This is my first webpage and my first project, created using HTML5 semantic tags with accessibility and SEO best practices in mind.</p>
+    </section>
+
+    <section id="table" aria-labelledby="table-heading">
+      <h2 id="table-heading">Sample Data Table</h2>
+      <table border="1" summary="table showing product information including name, description, and price.">
+        <caption>Product Information</caption>
+        <thead>
+          <tr>
+            <th scope="col">Product Name</th>
+            <th scope="col">Description</th>
+            <th scope="col">Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Science Textbook</td>
+            <td>Chemistry 101</td>
+            <td>KSh 1,200.00</td>
+          </tr>
+          <tr>
+            <td>Maths text book</td>
+            <td>introduction to calculus</td>
+            <td>KSh 1,860.00</td>
+          </tr>
+          <tr>
+            <td>History book</td>
+            <td>History of the world</td>
+            <td>KSh 870.00</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact Me</h2>
+      <address>
+        <p>Email: <a href="mailto:harrisonmwai24@gmail.com">Email Harrison</a></p>
+      </address>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>&copy; 2025 Harrison Mwai First webpage</p>
+  </footer>
+</body>
+</html>
